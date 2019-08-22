@@ -1,0 +1,17 @@
+development:
+  driver: postgres
+  open: dbname=server sslmode=disable
+
+staging:
+  driver: postgres
+  open: host=you_host user=you_user dbname=you_db password=you_password
+
+production:
+  driver: postgres
+  open: host=you_host user=you_user dbname=you_db password=you_password
+
+test:
+  driver: postgres
+  open: user=postgres dbname=server_test sslmode=disable
+
+#open: $DATABASE_URL

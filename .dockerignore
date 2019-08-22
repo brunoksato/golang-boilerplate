@@ -1,0 +1,6 @@
+README.md
+.vscode
+.git
+.go-pkg-cache
+.gopath
+vendor
